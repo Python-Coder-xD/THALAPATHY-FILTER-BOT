@@ -10,6 +10,8 @@ cd /THALAPATHY-FILTER-BOT
 pip3 install -U -r requirements.txt
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
-
 echo "Starting Bot...."
-python3 bot.py
+COPY . .
+
+CMD python3 bot.py
+
