@@ -10,3 +10,5 @@ RUN mkdir /Auto-search-tamil-bot
 WORKDIR /Auto-search-tamil-bot
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
+COPY . .
+CMD python3 bot.py
