@@ -668,10 +668,10 @@ async def send_all(bot, userid, files, ident, chat_id, user_name, query):
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 [
-                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
+                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                                 InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/{BOT_ADMIN}")
+                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url=f'https://t.me/{BOT_ADMIN}')
                                 ]
                             ]
                         )
